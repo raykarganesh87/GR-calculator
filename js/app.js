@@ -782,8 +782,7 @@ const GRApp = {
             </div>
         `;
     },
-
-    buildBrickworkCalc() {
+buildBrickworkCalc() {
         return `
             <div class="calc-container">
                 <div class="calc-panel">
@@ -2148,8 +2147,7 @@ const GRApp = {
             this.showToast(e.message, 'error');
         }
     },
-
-    calculateRsd() {
+calculateRsd() {
         const input = document.getElementById('rsdValues').value.trim();
         if (!input) { this.showToast('Please enter values', 'error'); return; }
         
